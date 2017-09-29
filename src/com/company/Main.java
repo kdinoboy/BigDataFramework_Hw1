@@ -8,9 +8,9 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
         /*exo1*/
-        for (i = args.length - 1; i = 0; i--) {
+        /*for (i = args.length - 1; i = 0; i--) {
             System.out.println(args[i] + " ");
-        }
+        }*/
         dicho();
     }
 
@@ -34,6 +34,7 @@ public class Main {
                 {
                     quit = 0;
                     System.out.println("Felicitation !");
+                    quit = 1;
                 }
                 else if(guessed < toFind)
                 {
@@ -43,7 +44,6 @@ public class Main {
                 else
                 {
                     System.out.println("Réessayez, cest plus petit ! ");
-                    quit = 1;
                 }
             }
 
